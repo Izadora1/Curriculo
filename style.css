@@ -23,38 +23,43 @@ a {
 
 body {
     font-family: Verdana;
-    margin: 50px auto; /* Remover para realizar impressão */
+    /*margin: 50px auto;  Remover para realizar impressão */
     width: 794px;
     height: 1123px;
     border: 1px solid #ccc;
-    padding: 0 25px;
+    padding: 0 28px;
     text-align: justify;
 }
 
+p {
+    font-size: 14px; /* Ajuste o tamanho conforme necessário */
+}
+
+
 h1 {
-    font-size: 32px;
+    font-size: 28px;
     color: var(--roxo-escuro);
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 20px;
     color: var(--roxo-escuro);
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 4px;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 80;
 }
 
 .titulo {
-    padding-top: 25px;
+    padding-top: 22px;
     padding-bottom: 10px;
 }
 
 .rosa {
-    font-size: 12;
+    font-size: 15px;
     color: var(--roxo-claro);
     font-weight: 600;
 }
@@ -66,7 +71,7 @@ h3 {
 }
 
 .informacoes img {
-    width: 120px;
+    width: 100px;
     height: auto;
 }
 
@@ -74,4 +79,48 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.formacao{
+    padding-bottom: 8px;
+}
+
+.acad {
+    display: flex;
+}
+
+.img-form{
+    width: 70px;
+}
+
+.img-form img{
+    width: 70px;
+}
+
+#logo-ficr img{
+    width: 58px;
+}
+
+.cursos {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.habilidades {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 4 colunas iguais */
+    gap: 10px 10px; /* Espaçamento entre os itens */
+    text-align: left;
+}
+
+.habilidades p {
+    margin: 0;
+    font-size: 15px;
+}
+
+
+.idiomas {
+    display: flex;
+    gap: 20px;
 }
